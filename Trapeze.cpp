@@ -30,7 +30,7 @@ Point Trapeze::Center() const {
 }
 
 double Trapeze::Area() const {
-    double height = point_and_straight_distance(p1_,p3_,p4_);
+    double height = point_and_line_distance(p1_, p3_, p4_);
     return (Vector(p1_, p2_).length() + Vector(p3_, p4_).length()) * height / 2;
 }
 

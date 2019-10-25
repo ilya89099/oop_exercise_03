@@ -56,7 +56,7 @@ bool is_perpendecular(const Vector& lhs, const Vector& rhs) {
     return (lhs * rhs) == 0;
 }
 
-double point_and_straight_distance(Point p1, Point p2, Point p3) {
+double point_and_line_distance(Point p1, Point p2, Point p3) {
     double A = p2.y - p3.y;
     double B = p3.x - p2.x;
     double C = p2.x*p3.y - p3.x*p2.y;

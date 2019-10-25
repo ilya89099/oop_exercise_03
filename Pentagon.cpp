@@ -9,9 +9,9 @@ Pentagon::Pentagon(const Point& p1, const Point& p2, const Point& p3, const Poin
 
 double Pentagon::Area() const {
     return
-    point_and_straight_distance(p1_, p2_, p3_) * Vector(p2_, p3_).length() / 2
-    + point_and_straight_distance(p1_, p3_, p4_) * Vector(p3_, p4_).length() / 2
-    + point_and_straight_distance(p1_, p4_, p5_) * Vector(p4_, p5_).length() / 2;
+            point_and_line_distance(p1_, p2_, p3_) * Vector(p2_, p3_).length() / 2
+            + point_and_line_distance(p1_, p3_, p4_) * Vector(p3_, p4_).length() / 2
+            + point_and_line_distance(p1_, p4_, p5_) * Vector(p4_, p5_).length() / 2;
 }
 
 Point Pentagon::Center() const {

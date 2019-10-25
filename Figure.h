@@ -32,7 +32,7 @@ public:
 
 bool is_parallel(const Vector& lhs, const Vector& rhs);
 bool is_perpendecular(const Vector& lhs, const Vector& rhs);
-double point_and_straight_distance(Point p1, Point p2, Point p3);
+double point_and_line_distance(Point p1, Point p2, Point p3);
 
 class Figure {
 public:
