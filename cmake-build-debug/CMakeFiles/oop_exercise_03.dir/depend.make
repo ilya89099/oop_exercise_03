@@ -4,11 +4,21 @@
 CMakeFiles/oop_exercise_03.dir/Figure.cpp.o: ../Figure.cpp
 CMakeFiles/oop_exercise_03.dir/Figure.cpp.o: ../Figure.h
 
+CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.o: ../Figure.h
+CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.o: ../Pentagon.cpp
+CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.o: ../Pentagon.h
+
+CMakeFiles/oop_exercise_03.dir/Rhombus.cpp.o: ../Figure.h
+CMakeFiles/oop_exercise_03.dir/Rhombus.cpp.o: ../Rhombus.cpp
+CMakeFiles/oop_exercise_03.dir/Rhombus.cpp.o: ../Rhombus.h
+
 CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o: ../Figure.h
 CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o: ../Trapeze.cpp
 CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o: ../Trapeze.h
 
 CMakeFiles/oop_exercise_03.dir/main.cpp.o: ../Figure.h
+CMakeFiles/oop_exercise_03.dir/main.cpp.o: ../Pentagon.h
+CMakeFiles/oop_exercise_03.dir/main.cpp.o: ../Rhombus.h
 CMakeFiles/oop_exercise_03.dir/main.cpp.o: ../Trapeze.h
 CMakeFiles/oop_exercise_03.dir/main.cpp.o: ../main.cpp
 

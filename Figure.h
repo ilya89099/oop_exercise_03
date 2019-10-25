@@ -7,15 +7,16 @@
 #include <limits>
 
 struct Point {
-    double x;
-    double y;
-    friend std::ostream& operator << (std::ostream& str, Point p);
-    friend Point operator + (Point lhs, Point rhs);
-    friend Point operator - (Point lhs, Point rhs);
-    friend Point operator / (Point lhs, double a);
-    friend Point operator * (Point lhs, double a);
-    friend  bool operator < (Point lhs, Point rhs);
+    double x = 0;
+    double y = 0;
 };
+
+std::ostream& operator << (std::ostream& os, const Point& p);
+std::istream& operator >> (std::istream& is, Point& p);
+Point operator + (Point lhs, Point rhs);
+Point operator - (Point lhs, Point rhs);
+Point operator / (Point lhs, double a);
+Point operator * (Point lhs, double a);
 
 class Vector {
 public:
@@ -29,19 +30,18 @@ public:
     double y;
 };
 
-bool parallel(Vector lhs, Vector rhs);
+bool is_parallel(const Vector& lhs, const Vector& rhs);
+bool is_perpendecular(const Vector& lhs, const Vector& rhs);
+double point_and_straight_distance(Point p1, Point p2, Point p3);
 
 class Figure {
 public:
     virtual Point Center() const = 0;
     virtual double Area() const = 0;
-    std::string GetName() const;
-    friend std::ostream& operator << (std::ostream& str, const Figure& fig);
+    virtual void Print(std::ostream& os) const = 0;
+    virtual void Scan(std::istream& is) = 0;
     virtual ~Figure() = default;
-protected:
-    Figure(size_t points_count, std::string figure_name);
-    std::vector<Point> points_;
-private:
-    std::string figure_name_;
 };
 
+std::ostream& operator << (std::ostream& os, const Figure& fig);
+std::istream& operator >> (std::istream& is, Figure& fig);

@@ -1,7 +1,3 @@
-//
-// Created by ilya on 09.10.2019.
-//
-
 #include "Figure.h"
 
 Point operator + (Point lhs, Point rhs) {
@@ -28,8 +24,8 @@ double operator * (Vector lhs, Vector rhs) {
     return lhs.x * rhs.x + lhs.y * rhs.y;
 }
 
-bool parallel(Vector lhs, Vector rhs) {
-    return (std::abs(lhs * rhs - lhs.length() * rhs.length()) < std::numeric_limits<double>::epsilon() * 100);
+bool is_parallel(const Vector& lhs, const Vector& rhs) {
+    return (lhs.x * rhs.y - lhs.y * rhs.y) == 0;
 }
 
 bool Vector::operator == (Vector rhs) {
@@ -47,8 +43,6 @@ Vector::Vector(double a, double b)
 
 }
 
-
-
 Vector::Vector(Point a, Point b)
 : x(b.x - a.x), y(b.y - a.y){
 
@@ -58,20 +52,33 @@ Vector Vector::operator - () {
     return Vector(-x, -y);
 }
 
-std::ostream& operator << (std::ostream& str, Point p) {
-    return str << p.x << " " << p.y;
+bool is_perpendecular(const Vector& lhs, const Vector& rhs) {
+    return (lhs * rhs) == 0;
 }
 
-std::ostream& operator << (std::ostream& str, const Figure& fig) {
-    for (Point p : fig.points_) {
-        str << p << " ";
-    }
-    return str;
+double point_and_straight_distance(Point p1, Point p2, Point p3) {
+    double A = p2.y - p3.y;
+    double B = p3.x - p2.x;
+    double C = p2.x*p3.y - p3.x*p2.y;
+    return (std::abs(A*p1.x + B*p1.y + C) / std::sqrt(A*A + B*B));
 }
 
-std::string Figure::GetName() const {
-    return figure_name_;
+std::ostream& operator << (std::ostream& os, const Point& p) {
+    return os << p.x << " " << p.y;
 }
 
-Figure::Figure(size_t points_count, std::string figure_name)
-: points_(points_count), figure_name_(figure_name) {}
+std::istream& operator >> (std::istream& is, Point& p) {
+    return is >> p.x >> p.y;
+}
+
+std::ostream& operator << (std::ostream& os, const Figure& fig) {
+    fig.Print(os);
+    return os;
+}
+
+std::istream& operator >> (std::istream& is, Figure& fig) {
+    fig.Scan(is);
+    return is;
+}
+
+

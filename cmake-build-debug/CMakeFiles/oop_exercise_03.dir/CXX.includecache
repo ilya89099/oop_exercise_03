@@ -6,29 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/ilya/CLionProjects/oop_exercise_03/Figure.h
-numeric
--
-iostream
--
-vector
--
-cmath
--
-limits
--
-
-/home/ilya/CLionProjects/oop_exercise_03/Trapeze.h
-Figure.h
-/home/ilya/CLionProjects/oop_exercise_03/Figure.h
-exception
--
-
-/home/ilya/CLionProjects/oop_exercise_03/main.cpp
-iostream
--
-algorithm
--
-Trapeze.h
-/home/ilya/CLionProjects/oop_exercise_03/Trapeze.h
-

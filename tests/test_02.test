@@ -1,0 +1,16 @@
+add Rhombus 0 0 3 4 8 4 5 0
+add Rhombus 3 4 0 0 8 4 5 0
+add Rhombus 3 4 8 4 5 0 0 0
+add Rhombus 8 4 5 0 3 4 0 0
+add Rhombus 5 0 3 4 0 0 8 4
+count
+area 1
+area 2
+area 3
+area 4
+area 5
+center 1
+center 2
+center 3
+center 4
+center 5

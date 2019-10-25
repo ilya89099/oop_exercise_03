@@ -4,11 +4,21 @@
 CMakeFiles/oop_exercise_03.dir/Figure.cpp.o
  /home/ilya/CLionProjects/oop_exercise_03/Figure.cpp
  /home/ilya/CLionProjects/oop_exercise_03/Figure.h
+CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.o
+ /home/ilya/CLionProjects/oop_exercise_03/Figure.h
+ /home/ilya/CLionProjects/oop_exercise_03/Pentagon.cpp
+ /home/ilya/CLionProjects/oop_exercise_03/Pentagon.h
+CMakeFiles/oop_exercise_03.dir/Rhombus.cpp.o
+ /home/ilya/CLionProjects/oop_exercise_03/Figure.h
+ /home/ilya/CLionProjects/oop_exercise_03/Rhombus.cpp
+ /home/ilya/CLionProjects/oop_exercise_03/Rhombus.h
 CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o
  /home/ilya/CLionProjects/oop_exercise_03/Figure.h
  /home/ilya/CLionProjects/oop_exercise_03/Trapeze.cpp
  /home/ilya/CLionProjects/oop_exercise_03/Trapeze.h
 CMakeFiles/oop_exercise_03.dir/main.cpp.o
  /home/ilya/CLionProjects/oop_exercise_03/Figure.h
+ /home/ilya/CLionProjects/oop_exercise_03/Pentagon.h
+ /home/ilya/CLionProjects/oop_exercise_03/Rhombus.h
  /home/ilya/CLionProjects/oop_exercise_03/Trapeze.h
  /home/ilya/CLionProjects/oop_exercise_03/main.cpp

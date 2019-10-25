@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ilya/CLionProjects/oop_exercise_03/Figure.cpp" "/home/ilya/CLionProjects/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Figure.cpp.o"
+  "/home/ilya/CLionProjects/oop_exercise_03/Pentagon.cpp" "/home/ilya/CLionProjects/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.o"
   "/home/ilya/CLionProjects/oop_exercise_03/Rhombus.cpp" "/home/ilya/CLionProjects/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Rhombus.cpp.o"
   "/home/ilya/CLionProjects/oop_exercise_03/Trapeze.cpp" "/home/ilya/CLionProjects/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o"
   "/home/ilya/CLionProjects/oop_exercise_03/main.cpp" "/home/ilya/CLionProjects/oop_exercise_03/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/main.cpp.o"

@@ -5,13 +5,40 @@
       <config projectName="oop_exercise_03" targetName="oop_exercise_03" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90446b50-d42f-4a24-a3e3-e075cd434e9b" name="Default Changelist" comment="" />
+    <list default="true" id="90446b50-d42f-4a24-a3e3-e075cd434e9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Figure.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure.h" beforeDir="false" afterPath="$PROJECT_DIR$/Figure.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rhombus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rhombus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rhombus.h" beforeDir="false" afterPath="$PROJECT_DIR$/Rhombus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trapeze.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Trapeze.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trapeze.h" beforeDir="false" afterPath="$PROJECT_DIR$/Trapeze.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Figure.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Figure.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/Trapeze.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/oop_exercise_03.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oop_exercise_03" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/oop_exercise_03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/oop_exercise_03.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/oop_exercise_03.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +49,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1R3padEu7JRDE5LExObAaa6gJiz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -69,11 +100,42 @@
       <workItem from="1570742424795" duration="10382000" />
       <workItem from="1570789328823" duration="19000" />
       <workItem from="1570790574632" duration="3062000" />
-      <workItem from="1570795481965" duration="261000" />
+      <workItem from="1570795481965" duration="409000" />
+      <workItem from="1570914579912" duration="604000" />
+      <workItem from="1570915579747" duration="37000" />
+      <workItem from="1570915631929" duration="1258000" />
+      <workItem from="1570956989266" duration="22000" />
+      <workItem from="1571041251346" duration="5574000" />
+      <workItem from="1571239658522" duration="31000" />
+      <workItem from="1571998666517" duration="9224000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Rhombus.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -150,6 +150,33 @@ Figure.cpp.s:
 	$(MAKE) -f CMakeFiles/oop_exercise_03.dir/build.make CMakeFiles/oop_exercise_03.dir/Figure.cpp.s
 .PHONY : Figure.cpp.s
 
+Pentagon.o: Pentagon.cpp.o
+
+.PHONY : Pentagon.o
+
+# target to build an object file
+Pentagon.cpp.o:
+	$(MAKE) -f CMakeFiles/oop_exercise_03.dir/build.make CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.o
+.PHONY : Pentagon.cpp.o
+
+Pentagon.i: Pentagon.cpp.i
+
+.PHONY : Pentagon.i
+
+# target to preprocess a source file
+Pentagon.cpp.i:
+	$(MAKE) -f CMakeFiles/oop_exercise_03.dir/build.make CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.i
+.PHONY : Pentagon.cpp.i
+
+Pentagon.s: Pentagon.cpp.s
+
+.PHONY : Pentagon.s
+
+# target to generate assembly for a file
+Pentagon.cpp.s:
+	$(MAKE) -f CMakeFiles/oop_exercise_03.dir/build.make CMakeFiles/oop_exercise_03.dir/Pentagon.cpp.s
+.PHONY : Pentagon.cpp.s
+
 Rhombus.o: Rhombus.cpp.o
 
 .PHONY : Rhombus.o
@@ -243,6 +270,9 @@ help:
 	@echo "... Figure.o"
 	@echo "... Figure.i"
 	@echo "... Figure.s"
+	@echo "... Pentagon.o"
+	@echo "... Pentagon.i"
+	@echo "... Pentagon.s"
 	@echo "... Rhombus.o"
 	@echo "... Rhombus.i"
 	@echo "... Rhombus.s"

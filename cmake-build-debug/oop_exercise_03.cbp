@@ -90,6 +90,12 @@
 		<Unit filename="/home/ilya/CLionProjects/oop_exercise_03/Figure.h">
 			<Option target="oop_exercise_03"/>
 		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/oop_exercise_03/Pentagon.cpp">
+			<Option target="oop_exercise_03"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/oop_exercise_03/Pentagon.h">
+			<Option target="oop_exercise_03"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/oop_exercise_03/Rhombus.cpp">
 			<Option target="oop_exercise_03"/>
 		</Unit>

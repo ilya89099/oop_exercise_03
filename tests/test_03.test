@@ -1,0 +1,16 @@
+add Trapeze 0 0 3 4 6 4 7 0
+add Trapeze 3 4 6 4 7 0 0 0
+add Trapeze 0 0 7 0 3 4 6 4
+add Trapeze 3 4 0 0 6 4 7 0
+add Trapeze 7 0 6 4 0 0 3 4
+count
+area 1
+area 2
+area 3
+area 4
+area 5
+center 1
+center 2
+center 3
+center 4
+center 5
